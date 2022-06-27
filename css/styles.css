@@ -1,0 +1,82 @@
+/* main color color:#757575;  */
+/* second color color: #212121; */
+/* accent color: #2196F3; */
+/* header background color #FFFFFF; */
+/* second background color #E5E5E5*/
+/* forth backgound color #F5F4FA */
+/* footer background color  #2F303A; */
+:root {
+    --main-color-text : #757575;
+    --second-color-text:#212121;
+    --accent-animation-color:#2196F3;
+    --first-part-logo-color:#000000;
+    --hero-wite-color:#FFFFFF;
+    --hero-background-color:#2F303A;
+}
+
+body {
+    background: #FFFFFF;
+color: var(--main-color-text);
+}
+.list {
+    list-style: none;
+}
+a { 
+text-decoration: none;
+}
+
+
+/* header */
+    
+.logo{
+  color: var(--first-part-logo-color);
+}
+.footer-logo{
+    color: #FFFFFF;
+}
+.web{
+color: var(--accent-animation-color);
+}
+.header-list .link{
+color: var(--second-color-text);}
+
+.contact-nav .link{
+color: var(--main-color-text);
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus,
+.header-list .link:hover,
+.header-list .link:focus{
+color: var(--accent-animation-color);
+}
+
+/* hero */
+.hero-title{
+    color: var(--hero-wite-color);
+    background-color: var(--hero-background-color);
+}
+
+
+.hero-button{
+    color: var(--hero--color);
+    background-color: var(--accent-animation-color);
+}
+
+/* color of all  section title  */
+.section .title{
+    color: var(--second-color-text);
+}
+
+/* footer */
+.footer{
+    background-color: #2F303A;
+}
+
+.contact .maps{
+  color: #FFFFFF;  
+}
+
+.contact .list{
+    color: rgba(255, 255, 255, 0.6);
+}
+
