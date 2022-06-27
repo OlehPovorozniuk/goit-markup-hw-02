@@ -49,6 +49,9 @@ color: var(--main-color-text);
 .header-list .link:focus{
 color: var(--accent-animation-color);
 }
+.header-list .link.curent{
+color: var(--accent-animation-color);
+}
 
 /* hero */
 .hero-title{
