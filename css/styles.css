@@ -3,19 +3,23 @@
 /* accent color: #2196F3; */
 /* header background color #FFFFFF; */
 /* second background color #E5E5E5*/
-/* forth backgound color #F5F4FA */
+/* forth background color #F5F4FA */
 /* footer background color  #2F303A; */
+
+
 :root {
     --main-color-text : #757575;
     --second-color-text:#212121;
     --accent-animation-color:#2196F3;
     --first-part-logo-color:#000000;
-    --hero-wite-color:#FFFFFF;
+    --wite-color:#FFFFFF;
     --hero-background-color:#2F303A;
+    --background-button-portfolio:#F5F4FA;
+    --second--backgroun-color:#E5E5E5;
 }
 
 body {
-    background: #FFFFFF;
+    background:var(--wite-color);
 color: var(--main-color-text);
 }
 .list {
@@ -32,7 +36,7 @@ text-decoration: none;
   color: var(--first-part-logo-color);
 }
 .footer-logo{
-    color: #FFFFFF;
+    color: var(--wite-color);
 }
 .web{
 color: var(--accent-animation-color);
@@ -55,19 +59,27 @@ color: var(--accent-animation-color);
 
 /* hero */
 .hero-title{
-    color: var(--hero-wite-color);
+    color: var(--wite-color);
     background-color: var(--hero-background-color);
 }
 
-
 .hero-button{
-    color: var(--hero--color);
+    color: var(--wite-color);
     background-color: var(--accent-animation-color);
 }
 
 /* color of all  section title  */
 .section .title{
     color: var(--second-color-text);
+}
+
+/* section work bgr color */
+.bgr{
+    background-color:var(--second--backgroun-color);
+}
+/* section team bgr culor*/
+.team{
+    background-color: #F5F4FA;
 }
 
 /* footer */
@@ -81,5 +93,19 @@ color: var(--accent-animation-color);
 
 .contact .list{
     color: rgba(255, 255, 255, 0.6);
+}
+
+/* portfolio */
+.section .text{
+    color: var(--main-color-text);
+}
+.section .button{
+    color:var(--second-color-text);
+    background-color:var(--background-button-portfolio);
+}
+.section .button:hover,
+.section .button:focus{
+    color: var(--wite-color);
+    background-color: var(--accent-animation-color);
 }
 
