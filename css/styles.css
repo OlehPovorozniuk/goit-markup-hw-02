@@ -21,6 +21,8 @@
 body {
     background:var(--wite-color);
 color: var(--main-color-text);
+font-family: 'Roboto', Sans-serif;
+letter-spacing: 0.03em;
 }
 .list {
     list-style: none;
@@ -38,14 +40,30 @@ text-decoration: none;
 .footer-logo{
     color: var(--wite-color);
 }
+
+.font{
+    font-family: Raleway, sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+}
 .web{
 color: var(--accent-animation-color);
 }
 .header-list .link{
-color: var(--second-color-text);}
+color: var(--second-color-text);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.9;
+    letter-spacing: 0.02em;
+}
 
 .contact-nav .link{
 color: var(--main-color-text);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.9;
+    letter-spacing: 0.02em;
 }
 .contact-nav .link:hover,
 .contact-nav .link:focus,
@@ -58,24 +76,62 @@ color: var(--accent-animation-color);
 }
 
 /* hero */
+.hero{
+    background-color: var(--hero-background-color);
+}
 .hero-title{
     color: var(--wite-color);
-    background-color: var(--hero-background-color);
+    
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.4;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
 }
 
 .hero-button{
     color: var(--wite-color);
     background-color: var(--accent-animation-color);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        font-family: 'Roboto', Sans-serif;
 }
 
 /* color of all  section title  */
 .section .title{
     color: var(--second-color-text);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.5;
+        text-transform: uppercase;
 }
-
+.title.weight{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        text-align: center;
+        
+}
 /* section work bgr color */
 .bgr{
     background-color:var(--second--backgroun-color);
+    
+}
+.bgr .button{
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+}
+.section .text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
 }
 /* section team bgr culor*/
 .team{
@@ -85,6 +141,9 @@ color: var(--accent-animation-color);
 /* footer */
 .footer{
     background-color: #2F303A;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
 }
 
 .contact .maps{
