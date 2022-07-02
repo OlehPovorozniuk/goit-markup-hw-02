@@ -10,64 +10,61 @@
   --main-color-text: #757575;
   --title-color-text: #212121;
   --accent-animation-color: #2196f3;
-  --first-part-logo-color: #000000;
+  --black-color: #000000;
   --wite-color: #ffffff;
   --hero-footer-background-color: #2f303a;
   --background-button-portfolio: #f5f4fa;
   --second--backgroun-color: #e5e5e5;
 }
+
 /* description */
 body {
-  background: var(--wite-color);
   color: var(--main-color-text);
   font-family: 'Roboto', Sans-serif;
   letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.7;
 }
 .list {
-  list-style: none;
+ list-style: none;
 }
-a {
+ .link{
   text-decoration: none;
-  cursor: default;
-}
+    color: currentColor;
+ }
+
 
 /* logo */
 
-.logo {
-  color: var(--first-part-logo-color);
+.logo  {
+  color: var(--accent-animation-color);
+  font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
 }
-.footer-logo {
+.logo-black{
+  color: var(--black-color);
+}
+.logo-white{
   color: var(--wite-color);
 }
-.font {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-}
-.web {
-  color: var(--accent-animation-color);
-}
+
 
 /* header */
-.header {
-  background-color: var(--wite-color);
+
+.header{
+  font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  
 }
 .header-nav .link {
   color: var(--title-color-text);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 0.9;
-  letter-spacing: 0.02em;
 }
 
-.contact-nav .link {
-  color: var(--main-color-text);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 0.9;
-  letter-spacing: 0.02em;
-}
+
 .contact-nav .link:hover,
 .contact-nav .link:focus,
 .header-nav .link:hover,
@@ -101,13 +98,8 @@ a {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
-  font-family: 'Roboto', Sans-serif;
+  font-family: inherit,Sans-serif; ;
   text-align: center;
-
-  /* main backgroun color */
-}
-.main {
-  background-color: var(--second--backgroun-color);
 }
 
 /* section adventages */
@@ -119,60 +111,50 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.advantages-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-}
 
-/* section work */
-.work-title {
+
+
+.section-title{
   color: var(--title-color-text);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
 }
 
 /* section team */
+.team-title, .team-text{
+  font-size: 16px;
+    line-height: 1.2;
+
+}
 .team-title {
   color: var(--title-color-text);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-}
-.sub-title {
-  color: var(--title-color-text);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.2;
+ 
 }
-.team .text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.2;
-}
+
 
 /* footer */
 .footer {
   background-color: var(--hero-footer-background-color);
 }
-
-.footer-list .map {
-  color: #ffffff;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
+.address{
+  font-style: inherit;
 }
 
-.footer-list .item {
+.address-link {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
 }
+.address-link[target="_blank"]{
+  color: var(--wite-color);
 
+}
 /* portfolio 
 list of buttons*/
+.portfolio{
+  font-family: inherit, Sans-serif;
+}
 
 .menu .button {
   color: var(--title-color-text);
@@ -190,18 +172,15 @@ list of buttons*/
 }
 
 /* portfolio second section */
-.sub-menu .title {
+.portfolio-title {
   color: var(--title-color-text);
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.sub-menu .text{
+.portfolio-text{
     color: var(--main-color-text);
-    font-family: 'Roboto';
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.9;
         letter-spacing: 0.03em;
