@@ -152,21 +152,18 @@ body {
 }
 /* portfolio 
 list of buttons*/
-.portfolio{
-  font-family: inherit, Sans-serif;
-}
 
-.menu .button {
+
+.menu-button {
   color: var(--title-color-text);
   background-color: var(--background-button-portfolio);
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
 }
-.menu .button:hover,
-.menu .button:focus {
+.menu-button:hover,
+.menu-button:focus {
   color: var(--wite-color);
   background-color: var(--accent-animation-color);
 }
@@ -180,8 +177,7 @@ list of buttons*/
   letter-spacing: 0.06em;
 }
 .portfolio-text{
-    color: var(--main-color-text);
         font-size: 16px;
         line-height: 1.9;
-        letter-spacing: 0.03em;
+       
 }
