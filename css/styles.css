@@ -1,0 +1,140 @@
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
+}
+.logo{
+    font-family: Raleway, sans-serif;
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    
+}
+.logo-blu{
+    color: #4D5AE5;
+}
+
+.head{
+    font-family: Roboto, sans-serif;
+}
+ .nav-list a{
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.nav .nav-list a:hover,
+.nav .nav-list a:focus{
+    color: #404BBF;
+}
+.nav .nav-list a:active{
+    color: #404BBF;
+    text-decoration: underline;
+}
+.address a{
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.address .mail:hover,
+.address .mail:focus{
+    color: #404BBF;
+}
+
+.hero{
+background-color: #2E2F42;
+}
+.title-hero{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    
+}
+
+ .hero-button{
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.hero .hero-button:hover,
+.hero .hero-button:focus{
+    background-color: #404BBF;
+}
+
+.pros .title-text{
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.pros .text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.team{
+    background-color:#F4F4FD ;
+}
+.team .title{
+    color: #2E2F42;
+ font-weight: 700;
+ font-size: 36px;
+ line-height: 1.111;
+text-align: center;
+}
+.team .team-title{
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.2;
+   
+}
+.team .text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+.portfolio .title{
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+.portfolio .text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.footer {
+    background-color: #2E2F42;
+}
+.footer .logo{
+    font-family: Raleway, sans-serif;
+    color: #F4F4FD;
+    font-weight: 700;
+     font-size: 18px;
+    line-height: 1.16;
+}
+.footer .logo-blu{
+    color: #4D5AE5;
+}
+.footer .text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #F4F4FD;
+}
