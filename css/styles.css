@@ -127,13 +127,17 @@ text-align: center;
     letter-spacing: 0.02em;
     
 }
+.portfolio{
+    background-color: #FFFFFF;
+}
 .portfolio .title{
     color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02;
+    text-transform: capitalize;
 }
 .portfolio .sec-title{
     color: #2E2F42;
