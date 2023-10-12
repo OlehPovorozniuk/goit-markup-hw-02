@@ -104,7 +104,8 @@ background-color: #2E2F42;
 .team{
     background-color:#F4F4FD ;
 }
-.first-list{
+
+ .team-list > .team-title, .team-text{
     background-color: #FFFFFF;
 }
 .team .title{
@@ -124,7 +125,7 @@ text-transform: capitalize;
     letter-spacing: 0.02em;
    
 }
-.team .text{
+.team .team-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
