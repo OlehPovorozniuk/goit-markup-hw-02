@@ -104,8 +104,9 @@ background-color: #2E2F42;
 .team{
     background-color:#F4F4FD ;
 }
-
-
+.first-list{
+    background-color: #FFFFFF;
+}
 .team .title{
     color: #2E2F42;
  font-weight: 700;
